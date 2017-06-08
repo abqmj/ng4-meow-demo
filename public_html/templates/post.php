@@ -1,3 +1,4 @@
+<meow-navbar></meow-navbar>
 <main class="bg">
 	<div class="container">
 		<div class="row">

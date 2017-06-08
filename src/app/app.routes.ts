@@ -2,9 +2,10 @@ import {RouterModule, Routes} from "@angular/router";
 import {HomeComponent} from "./components/home.component";
 import {AboutComponent} from "./components/about.component";
 import {PostComponent} from "./components/post.component";
+import {NavbarComponent} from "./components/navbar.component";
 
 
-export const allAppComponents = [HomeComponent, AboutComponent, PostComponent];
+export const allAppComponents = [HomeComponent, AboutComponent, PostComponent, NavbarComponent];
 
 export const routes: Routes = [
 	{path: "post", component: PostComponent},
