@@ -49,3 +49,4 @@
 		</div>
 	</div>
 </main>
+<meow-navbar></meow-navbar>

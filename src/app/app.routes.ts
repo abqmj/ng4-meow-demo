@@ -3,9 +3,10 @@ import {HomeComponent} from "./components/home.component";
 import {AboutComponent} from "./components/about.component";
 import {PostComponent} from "./components/post.component";
 import {NavbarComponent} from "./components/navbar.component";
+import {FooterComponent} from "./components/footer.component";
 
 
-export const allAppComponents = [HomeComponent, AboutComponent, PostComponent, NavbarComponent];
+export const allAppComponents = [HomeComponent, AboutComponent, PostComponent, NavbarComponent, FooterComponent];
 
 export const routes: Routes = [
 	{path: "post", component: PostComponent},
